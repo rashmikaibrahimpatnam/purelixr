@@ -327,11 +327,11 @@ function ResultScreen({ results, onRestart, animIn }) {
   const [winnerName, setWinnerName] = useState("");
 
   const scentImages = {
-    floral:   "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=400&q=80",
-    woody:    "https://images.unsplash.com/photo-1587017539504-67cfbddac569?w=400&q=80",
-    citrus:   "https://images.unsplash.com/photo-1525904097878-94fb15835963?w=400&q=80",
-    oriental: "https://images.unsplash.com/photo-1547721064-da6cfb341d50?w=400&q=80",
-    sweet:    "https://images.unsplash.com/photo-1605721911519-3dfeb3be25e7?w=400&q=80",
+    floral:   "/floral.png",
+    woody:    "/woody.png",
+    citrus:   "/citrus.png",
+    oriental: "/oriental.png",
+    sweet:    "/sweet.png",
   };
 
   // ── Submit handler ── (standalone function, NOT inside any JSX)
